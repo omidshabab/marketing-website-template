@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { BaseHubImage } from "basehub/next-image";
 
 import { Pump } from "basehub/react-pump";
@@ -122,24 +121,5 @@ export async function Footer() {
         );
       }}
     </Pump>
-  );
-}
-
-function PoweredByBasehub({ className }: { className?: string }) {
-  return (
-    <ButtonLink
-      unstyled
-      className={className}
-      href="https://basehub.com/basehub/marketing-website"
-      target="_blank"
-    >
-      <Image
-        alt="Use BaseHub Template"
-        className="h-7 w-auto"
-        height={28}
-        src="https://basehub.com/template-button.svg"
-        width={150}
-      />
-    </ButtonLink>
   );
 }
