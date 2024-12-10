@@ -1,0 +1,47 @@
+{
+  "name": "basehub-marketing-website-template",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "basehub dev & next dev --turbopack",
+    "build": "basehub && next build && next-sitemap",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-accordion": "^1.2.1",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-navigation-menu": "^1.2.1",
+    "@radix-ui/react-popover": "^1.1.2",
+    "@radix-ui/react-select": "^2.1.2",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-tooltip": "^1.1.3",
+    "autoprefixer": "^10.4.19",
+    "basehub": "^7.5.28",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "embla-carousel": "^8.0.4",
+    "embla-carousel-react": "^8.0.4",
+    "embla-carousel-wheel-gestures": "^8.0.1",
+    "hast-util-to-jsx-runtime": "^2.3.0",
+    "next": "^15.0.3",
+    "next-themes": "^0.3.0",
+    "postcss": "^8.4.38",
+    "react": "19.0.0-rc-5c56b873-20241107",
+    "react-dom": "19.0.0-rc-5c56b873-20241107",
+    "sass": "^1.76.0",
+    "tailwindcss": "^3.4.3",
+    "tailwindcss-radix": "^3.0.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.13",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.1",
+    "next-sitemap": "4.2.3",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "typescript": "^5.4.5"
+  }
+}
