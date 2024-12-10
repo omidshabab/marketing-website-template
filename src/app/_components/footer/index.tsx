@@ -116,12 +116,6 @@ export async function Footer() {
                     </li>
                   );
                 })}
-
-                {settings.showUseTemplate ? (
-                  <li>
-                    <PoweredByBasehub className="ml-auto shrink-0" />
-                  </li>
-                ) : null}
               </ul>
             </div>
           </footer>
